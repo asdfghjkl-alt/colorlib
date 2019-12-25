@@ -35,16 +35,18 @@ input[type=text] {
 .imagediv {
   padding-top: 5%;
   padding-bottom: 5%;
+  z-index: -1;
 }
 
 .de {
-  width: 76%;
+  width: 100%;
 }
 
 .medic {
-  padding-top: 7%;
+  margin-top: 8%;
   padding-bottom: 7%;
-  padding-right: 25%;
+  padding-right: 15%;
+  padding-left: 10%;
 }
 
 .container-fluid {
@@ -101,11 +103,6 @@ div.gallery img {
 div.desc {
   padding: 10%;
   text-align: center;
-}
-
-.padded {
-  padding-top: 1%;
-  padding-bottom: 3%;
 }
 
 .padded:hover {
@@ -250,13 +247,7 @@ div.desc {
 }
 
 .padded {
+  background-color: white;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-.surgeon {
-  width: 76%;
-  margin: 0;
-  padding: 0;
-  background-image: url("images/IMG_2391.jpeg");
 }
